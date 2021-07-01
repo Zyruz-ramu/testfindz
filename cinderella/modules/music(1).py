@@ -15,7 +15,7 @@ from cinderella.conf import get_str_key
 from cinderella.pyrogramee.pluginshelper import get_text, progress
 from cinderella import pbot
 
-GENIUS = get_str_key("GENIUS_API_TOKEN", None)
+GENIUS = get_str_key("e4cawSDwLEq6JB_7zkr7AE2L5hLwX7jTu_oUsf4rI9K-utGOBak6W1o8jYIWdXy_", None)
 
 
 @pbot.on_message(filters.command(["vsong", "video"]))
