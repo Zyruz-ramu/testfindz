@@ -153,6 +153,7 @@ SUDO_USERS.add(1118936839)
 api_id = TELETHON_ID
 api_hash = TELETHON_HASH
 telethn = TelegramClient("cinderella", api_id, api_hash)
+pbot = Client("cinderellapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 dispatcher = updater.dispatcher
