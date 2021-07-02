@@ -5,7 +5,6 @@ import datetime
 from typing import Optional, List
 import resource
 import platform
-import lyricsgenius
 import sys
 import traceback
 import requests
