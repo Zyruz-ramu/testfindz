@@ -1,6 +1,5 @@
 import asyncio
 import io
-import os
 import time
 
 import lyricsgenius
