@@ -1,5 +1,6 @@
 import asyncio
 import io
+import os
 import time
 
 import lyricsgenius
@@ -15,7 +16,7 @@ from cinderella.conf import get_str_key
 from cinderella.pyrogramee.pluginshelper import get_text, progress
 from cinderella import pbot
 
-LYRICSGENIUS = get_str_key("GENIUS_API_TOKEN", None)
+GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 
 
 @pbot.on_message(filters.command(["vsong", "video"]))
