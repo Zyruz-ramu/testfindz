@@ -86,7 +86,7 @@ async def profanity(event):
            await event.reply("Only admins can execute this command!")
            return
         else:
-          if not await can_change_info(message=event):
+          if not await can_change_info(message=dmod):
             await event.reply("You are missing the following rights to use this command:CanChangeinfo")
             return
     if not input:
@@ -129,7 +129,7 @@ async def job_close():
     for pro in chats:
         try:
             await tbot.send_message(
-              int(pro.chat_id), "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started ! \n**Powered By Evlie**"
+              int(pro.chat_id), "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started. Users won't be able until the session ends ! \n**Powered By @tubots**"
             )
             await tbot(
             functions.messages.EditChatDefaultBannedRightsRequest(
@@ -151,7 +151,7 @@ async def job_open():
     for pro in chats:
         try:
             await tbot.send_message(
-              int(pro.chat_id), "06:00 Am, Group Is Opening.\n**Powered By Masha**"
+              int(pro.chat_id), "06:00 Am, Group Is Opening.\n**Powered By Aleena**"
             )
             await tbot(
             functions.messages.EditChatDefaultBannedRightsRequest(
@@ -168,9 +168,10 @@ scheduler.start()
 
 
 __help__ = """
- ❍ /nightmode on/off
+ ⚡️ /nightmode on/off
 **Note:** Night Mode chats get Automatically closed at 12pm(IST)
 and Automatically openned at 6am(IST) To Prevent Night Spams.
+KINDLY NOTE THAT THE BOT IS GIVEN THE SPECIFIC RIGHTS TO DO THIS.
 """
 
-__mod_name__ = "Nɪɢʜᴛ ᴍᴏᴅᴇ"
+__mod_name__ = "「 ⚡️NIGHTMODE 」"
