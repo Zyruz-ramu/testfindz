@@ -17,7 +17,7 @@ class Config(object):
     OWNER_USERNAME = "YOUR USERNAME HERE"
     TELETHON_HASH = None  # for purge stuffs
     TELETHON_ID = None
-    
+    SUPPORT_CHAT = " " # Your own group for support, do not add the @
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
