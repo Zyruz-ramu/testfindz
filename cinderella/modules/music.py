@@ -12,7 +12,7 @@ from tswift import Song
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 
-from cinderella.conf import get_str_key
+from cinderella.config import get_str_key
 from cinderella.pyrogramee.pluginshelper import get_text, progress
 from cinderella import pbot
 
