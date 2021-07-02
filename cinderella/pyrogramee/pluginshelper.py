@@ -13,7 +13,6 @@ from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Chat, Message, User
 
 from cinderella  import OWNER_ID, SUPPORT_CHAT
-from cinderella import pbot
 
 
 def get_user(message: Message, text: str) -> [int, str, None]:
