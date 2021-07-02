@@ -12,9 +12,9 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR BOT TOKEN HERE"
-    OWNER_ID = "YOUR OWN ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "1889764594:AAHSVDW1UE2wsIoWwqpKzsQs7GKZ3UslcgM"
+    OWNER_ID = "1870601987"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "@ramu_of_telegram"
     TELETHON_HASH = None  # for purge stuffs
     TELETHON_ID = None
     SUPPORT_CHAT = " " # Your own group for support, do not add the @
